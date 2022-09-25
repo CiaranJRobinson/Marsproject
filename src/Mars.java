@@ -25,6 +25,7 @@ public class Mars {
         boolean landing = LandingCheck(100);
         new GuessingGame();
         new MarsExpedition();
+        new FindingsLists();
     }
     public static boolean LandingCheck(int loops) {
             for (int i=0; i != loops; i++){
